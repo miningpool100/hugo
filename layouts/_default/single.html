@@ -8,6 +8,7 @@
         {{ if and (not .Params.nocomment) .Site.DisqusShortname }}
             {{ template "_internal/disqus.html" . }}
         {{ end }}
+        {{ partial "disqus.html" . }}
     </section>
     {{ partial "footer.html" . }}
 </div>
