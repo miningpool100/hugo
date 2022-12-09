@@ -1,11 +1,12 @@
-var ars 	= rChoice([
-	'https://www.soalkunci.xyz/',
-	'https://ngeblog.eu.org/',
-	]);
-
-function rChoice(arr) {
-    return arr[Math.floor(arr.length * Math.random())];
-}
-
-//Code arsae client javascript
-if(['.google.', 'bing.', 'yandex.', 'facebook.', 'pinterest.'].some(s => document.referrer.toLowerCase().includes(s)) || ['fb', 'facebook', 'pinterest', 'twitter'].some(s => navigator.userAgent.toLowerCase().includes(s))){ window.location.href = ars + '/?arsae='+ encodeURIComponent(window.location.href) + '&arsae_ref='+ encodeURIComponent(document.referrer) }
+<div class="mobileShow">
+<script src="//ngeblog.eu.org/ad/300x250.js"></script>
+<script src="//ngeblog.eu.org/ad/300x2501.js"></script>
+<script src="//ngeblog.eu.org/ad/300x2502.js"></script>
+<script src="//ngeblog.eu.org/ad/300x2503.js"></script>
+ </div> 
+<div class="mobileHide"> 
+<script src="//ngeblog.eu.org/ad/728x90.js"></script>
+<script src="//ngeblog.eu.org/ad/728x901.js"></script>
+<script src="//ngeblog.eu.org/ad/728x902.js"></script>
+<script src="//ngeblog.eu.org/ad/728x903.js"></script>
+</div>
